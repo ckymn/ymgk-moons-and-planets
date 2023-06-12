@@ -1,0 +1,83 @@
+name: number_on_trees
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  auto_route: ^5.0.1
+  auto_route_generator: ^5.0.2
+  bloc: ^8.1.0
+  build_runner: ^2.2.1
+  cupertino_icons: ^1.0.2
+  easy_localization: ^3.0.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_svg: ^1.1.6
+  json_serializable: ^6.5.0
+  lottie: ^1.3.0
+  shared_preferences: ^2.0.15
+  sizer: ^2.0.15
+  vexana: ^3.1.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/animations/
+    - assets/images/
+    - assets/translations/
+    - assets/fonts/
+    - assets/svg/
+
+  fonts:
+    - family: IRISH_REGULAR
+      fonts:
+        - asset: assets/fonts/IrishGrover-Regular.ttf
+    - family: INTER_BOLD
+      fonts:
+        - asset: assets/fonts/Inter-Bold.ttf
+    - family: INTER_MEDIUM
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf
+    - family: INTER_REGULAR
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+    - family: INTER_SEMIBOLD
+      fonts:
+        - asset: assets/fonts/Inter-SemiBold.ttf
+    - family: INTER_LIGHT
+      fonts:
+        - asset: assets/fonts/Inter-Light.ttf
+    - family: CUSTOM_ICONS
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
+    - family: POPPINS_BOLD
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+    - family: POPPINS_LIGHT
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+    - family: POPPINS_MEDIUM
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+    - family: POPPINS_REGULAR
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: POPPINS_SEMIBOLD
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
